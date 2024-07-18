@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" suiteName="Suite" testName="ParallelTests">
+<suite parallel="tests" thread-count="2">
+    <test name="Test1">
+        <classes>
+            <class name="com.example.ParallelTests">
+                <parameter name="deviceName" value="Pixel 3"/>
+                <parameter name="udid" value="15447372190008D"/>
+                <parameter name="appPath" value="/path/to/your/app.apk"/>
+            </class>
+        </classes>
+    </test>
+</suite>
+        </xml>
